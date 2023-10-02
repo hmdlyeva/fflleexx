@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.hamisi{
+    width: 100%;
+    height: 600px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.qutu1{
+background-color: aquamarine;
+}
+.qutu2{
+    background-color: blue;
+}
+.qutu3{
+    background-color: blueviolet;
+}
+.qutu4{
+   background-color: rgb(67, 67, 136); 
+}
+.qutu5{
+    background-color: yellow;
+}
+.qutu6{
+    background-color: orange;
+}
+.qutu7{
+    background-color: red;
+}
+.qutu8{
+   background-color: gray; 
+}
+.qutu9{
+    background-color: green;
+}
+.qutu10{
+    background-color: greenyellow;
+}
