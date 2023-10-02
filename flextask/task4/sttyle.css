@@ -1,0 +1,59 @@
+*{
+   margin: 0;
+    font-family: 'Croissant One', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+ul {
+    display: flex;
+   list-style-type: none;
+   
+   justify-content: space-evenly;
+   width: 200px;
+   
+}
+nav{
+width: 86%;
+height: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header{
+    width: 100%;
+ position: fixed;
+ height: 80px;
+ background-color: rgb(19, 90, 60);
+ color: white;
+}
+body{
+    background-color: rgb(60, 148, 119);
+    height: 1000px;
+}
+a{ padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+li:hover a{
+    color: #1ABC9C;
+}
+@media only screen and (max-width:992px) {
+    .mobile-hamburger-menu{
+        display: block;
+        justify-content: center;
+        align-content: center;
+        width: 60px;
+        height: 30px;
+        background-color: rgb(44, 139, 108);
+    }
+    header nav a{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px) {
+    .h3{
+        font-size: 14px;
+    }
+}
