@@ -1,0 +1,34 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+h3,li {
+    color: black
+}
+header{
+    background-image: url(./image/download.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 300PX;
+}
+.head {
+    width: 88%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 70px;
+}
+.head .ikinci ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.head .ikinic ul li{
+    
+}
+@media only screen and (max-width: 992px){
+    .head .ikinci ul{
+        display: none;
+    }
+}
